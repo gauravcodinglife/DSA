@@ -1,0 +1,24 @@
+Api version: 2.2
+name:
+  google gemini Api
+  open Api
+specs:
+  -variant: google gemini Api
+   description: google gemini Api
+   url: https://gemini.google.com/api/v1
+   -variant: open api
+    description: open Api
+    url: https://api.openai.com/v1
+usage:
+  -variant:google gemini api
+   description: google gemini Api usage
+   steps:
+     - step 1: authenticate with google gemini Api
+     - step 2: make requests to google gemini Api endpoints
+     - step 3: handle responses from google gemini Api
+  -variant: open api
+   description: open Api usage
+   steps:
+     - step 1: authenticate with open Api
+     - step 2: make requests to open Api endpoints
+     - step 3: handle responses from open Api
